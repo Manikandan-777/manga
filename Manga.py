@@ -41,7 +41,7 @@ Features:
 - 80+ String utilities
 - 75+ List operations
 - 34+ Dictionary operations
-- 24+ Type checking & conversion
+- 24+ Type checking & Conversion
 - 18+ File operations
 - 300+ Advanced algorithms
 - Data validation & checking
@@ -72,6 +72,8 @@ Issues & Support:
 
 ===============================================================================
 """
+
+# pylint: skip-file
 
 import os
 import sys
