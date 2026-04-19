@@ -1,0 +1,16 @@
+# Include documentation files
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include CONTRIBUTORS.md
+include requirements.txt
+
+# Recursive include for all markdown files
+recursive-include . *.md
+
+# Exclude common non-essential files
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store
+global-exclude .git*

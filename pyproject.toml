@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manga-lib"
+version = "1.0.0"
+description = "A comprehensive open-source library with 5000+ utility functions for Python"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Manikandan", email = "manikanda10407@gmail.com"},
+]
+requires-python = ">=3.6"
+keywords = [
+    "utilities",
+    "library",
+    "math",
+    "string",
+    "list",
+    "dict",
+    "algorithms",
+    "data-structures",
+    "validation",
+    "helpers",
+    "tools",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/Manikandan-777/manga"
+Documentation = "https://github.com/Manikandan-777/manga#readme"
+Repository = "https://github.com/Manikandan-777/manga.git"
+"Bug Tracker" = "https://github.com/Manikandan-777/manga/issues"
+
+[tool.setuptools]
+packages = ["manga"]
+
+[tool.black]
+line-length = 88
+target-version = ["py36", "py37", "py38", "py39", "py310", "py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.6"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

@@ -1,0 +1,8 @@
+# No external dependencies required
+# This library uses only Python standard library modules
+
+# Development dependencies (optional)
+# pytest>=6.0.0
+# black>=21.0
+# flake8>=3.9.0
+# mypy>=0.910
